@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="cell_layout_x_axis">6</integer>
+
+    <dimen name="icon_btm_font_size">28sp</dimen>
+    <dimen name="icon_btm_margin">15dp</dimen>
+    <dimen name="icon_btm_size">100dp</dimen>
+
+    <dimen name="menu_btn_size">70dp</dimen>
+    <dimen name="menu_btn_outer_size">120dp</dimen>
+
+    <!-- Widget 리스트 -->
+    <dimen name="widget_title_padding">10dp</dimen>
+    <dimen name="widget_title_icon_size">40dp</dimen>
+    <dimen name="widget_item_margin">5dp</dimen>
+    <dimen name="widget_item_space_margin">15dp</dimen>
+    <dimen name="widget_item_padding">8dp</dimen>
+    <dimen name="widget_item_grid_size">130dp</dimen>
+    <dimen name="widget_item_size">120dp</dimen>
+</resources>
