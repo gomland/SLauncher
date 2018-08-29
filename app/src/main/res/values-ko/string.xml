@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">S런처</string>
+    <string name="apps">앱스</string>
+    <string name="widgets">위젯</string>
+    <string name="wallpaper">배경이미지</string>
+    <string name="settings">설정</string>
+    <string name="gallery">갤러리</string>
+    <string name="camera">카메라</string>
+    <string name="clear">지우기</string>
+    <string name="no_name">이름 없음</string>
+    <string name="crop">잘라보기</string>
+    <string name="wide">넓게보기</string>
+</resources>

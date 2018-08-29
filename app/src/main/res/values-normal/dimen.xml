@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="cell_layout_x_axis">4</integer>
+
+    <dimen name="icon_btm_font_size">18sp</dimen>
+    <dimen name="icon_btm_margin">15dp</dimen>
+    <dimen name="icon_btm_size">85dp</dimen>
+</resources>

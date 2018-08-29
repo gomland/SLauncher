@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<my.home.slauncher.view.ui.CellLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/cell_layout_padding"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:axisX="6"
+    app:axisY="7"
+    app:cellWidth="@dimen/widget_cell_height"
+    app:cellHeight="@dimen/widget_cell_width"/>
