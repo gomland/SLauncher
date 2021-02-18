@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CellInfo">
+        <attr name="axisX" format="integer" />
+        <attr name="axisY" format="integer" />
+        <attr name="cellWidth" format="dimension" />
+        <attr name="cellHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="PageInfo">
+        <attr name="scaleValue" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="GridInfo">
+        <attr name="appsColumn" format="integer" />
+        <attr name="widgetColumn" format="integer" />
+    </declare-styleable>
+</resources>

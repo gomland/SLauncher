@@ -682,7 +682,7 @@ public class LauncherController extends FrameLayout implements View.OnClickListe
     //아이콘 드래그 중에 발생
     private void moveIconDrag(View touchView, int x, int y){
         if(mPickView != null){
-            final FrameLayout.LayoutParams p = (FrameLayout.LayoutParams) mPickView.getLayoutParams();
+            final LayoutParams p = (LayoutParams) mPickView.getLayoutParams();
             p.leftMargin = x - p.width/2;
             p.topMargin = y - p.height/2;
             mPickView.setLayoutParams(p);  //드래그 영역에 위치를 갱신

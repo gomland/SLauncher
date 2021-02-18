@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <integer name="cell_layout_x_axis">5</integer> <!-- 워크스페이스(상단 아이콘영역) 가로 격자 개수-->
+    <integer name="btm_layout_x_axis">5</integer> <!-- 하단 아이콘 영역 가로 격자 개수-->
+
+    <dimen name="cell_layout_padding">5dp</dimen> <!-- 1개의 페이지 패딩 사이즈-->
+
+    <!-- 메뉴 영역에 대한 크기 -->
+    <dimen name="menu_font_size">24sp</dimen>
+    <dimen name="menu_padding">15dp</dimen>
+    <dimen name="menu_title_font_size">18sp</dimen>
+    <dimen name="menu_item_font_size">13sp</dimen>
+    <dimen name="menu_btn_size">45dp</dimen>
+    <dimen name="menu_btn_outer_size">90dp</dimen>
+
+    <!-- GIF 이미지 버튼 사이즈-->
+    <dimen name="icon_bottom_size">90dp</dimen>
+
+    <!-- 아이콘 크기 -->
+    <dimen name="icon_font_size">14sp</dimen>
+    <dimen name="icon_text_padding">5dp</dimen>
+
+    <!-- Apps아이콘의 크기(gif) -->
+    <dimen name="apps_icon_size">60dp</dimen>
+    <dimen name="apps_icon_grid_height">100dp</dimen>
+
+    <!-- Widget 리스트 -->
+    <dimen name="widget_title_padding">10dp</dimen>
+    <dimen name="widget_title_icon_size">40dp</dimen>
+    <dimen name="widget_item_margin">5dp</dimen>
+    <dimen name="widget_item_space_margin">15dp</dimen>
+    <dimen name="widget_item_padding">8dp</dimen>
+    <dimen name="widget_item_grid_size">80dp</dimen>
+    <dimen name="widget_item_size">70dp</dimen>
+
+    <!-- 위젯 사이즈를 계산하기 위한 기본 단위 -->
+    <dimen name="widget_cell_width">100dip</dimen>
+    <dimen name="widget_cell_height">80dip</dimen>
+</resources>

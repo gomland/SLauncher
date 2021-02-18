@@ -4,9 +4,9 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import my.home.slauncher.view.activity.MainActivity;
-
 import java.lang.ref.WeakReference;
+
+import my.home.slauncher.view.activity.MainActivity;
 
 /**
  * Created by OWNER on 2017-09-25.

@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-
 import my.home.slauncher.R;
 import my.home.slauncher.data.ApplicationData;
 import my.home.slauncher.data.IconData;

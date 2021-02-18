@@ -11,13 +11,13 @@ import android.util.AttributeSet;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
+import java.util.StringTokenizer;
+
 import my.home.slauncher.data.ApplicationData;
 import my.home.slauncher.data.IconData;
 import my.home.slauncher.view.activity.MainActivity;
 import my.home.slauncher.view.animate.MoveAnimation;
 import my.home.slauncher.view.drawable.FastBitmapDrawable;
-
-import java.util.StringTokenizer;
 
 import static android.graphics.Paint.Align.CENTER;
 

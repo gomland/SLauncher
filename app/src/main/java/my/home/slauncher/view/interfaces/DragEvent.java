@@ -8,5 +8,5 @@ import android.view.View;
 public interface DragEvent {
     void dragStart(View v, int screenIdx, int currentX);
     void dragging(int scrollX);
-    void dragStop(int screenIdx,int delay);
+    void dragStop(int screenIdx, int delay);
 }

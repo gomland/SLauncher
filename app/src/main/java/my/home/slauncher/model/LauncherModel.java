@@ -12,17 +12,17 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Handler;
 
-import my.home.slauncher.data.ApplicationData;
-import my.home.slauncher.data.WidgetListUpData;
-import my.home.slauncher.tools.Utility;
-import my.home.slauncher.view.activity.MainActivity;
-
 import java.io.File;
 import java.io.FileOutputStream;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import my.home.slauncher.data.ApplicationData;
+import my.home.slauncher.data.WidgetListUpData;
+import my.home.slauncher.tools.Utility;
+import my.home.slauncher.view.activity.MainActivity;
 
 /**
  * Created by ShinSung on 2017-09-08.
@@ -93,9 +93,9 @@ public class LauncherModel {
     public LauncherModel(Context context, Handler handler){
         mContext = context;
         mMainHandler = handler;
-        mAppIconList = new ArrayList<>();
-        mWidgetItemList = new ArrayList<>();
-        mAppData = new HashMap<>();
+        mAppIconList = new ArrayList<ApplicationData>();
+        mWidgetItemList = new ArrayList<WidgetListUpData>();
+        mAppData = new HashMap<ApplicationData, Integer>();
     }
 
     public void destory(){
@@ -154,7 +154,7 @@ public class LauncherModel {
 
             //위젯을 보유한 패키지 항목 생성
             AppWidgetManager manager = AppWidgetManager.getInstance(mContext);
-            ArrayList<AppWidgetProviderInfo> widgetList = (ArrayList)manager.getInstalledProviders();
+            ArrayList<AppWidgetProviderInfo> widgetList = (ArrayList<AppWidgetProviderInfo>)manager.getInstalledProviders();
             String prevPackageName = "";
             WidgetListUpData widgetData = null;
             for (int i = 0; i < widgetList.size(); i++) {
@@ -228,7 +228,7 @@ public class LauncherModel {
 
         //위젯을 보유한 패키지 항목 생성
         AppWidgetManager manager = AppWidgetManager.getInstance(mContext);
-        ArrayList<AppWidgetProviderInfo> widgetList = (ArrayList)manager.getInstalledProviders();
+        ArrayList<AppWidgetProviderInfo> widgetList = (ArrayList<AppWidgetProviderInfo> )manager.getInstalledProviders();
         String prevPackageName = "";
         WidgetListUpData widgetData = null;
         for (int i = 0; i < widgetList.size(); i++) {

@@ -74,8 +74,8 @@ public class CellLayout extends BaseCellLayout implements DragAndDropEvent {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
-        int widthSpecSize = MeasureSpec.getSize(widthMeasureSpec);
-        int heightSpecSize = MeasureSpec.getSize(heightMeasureSpec);
+        int widthSpecSize = View.MeasureSpec.getSize(widthMeasureSpec);
+        int heightSpecSize = View.MeasureSpec.getSize(heightMeasureSpec);
 
         if(isPageMode){ //페이지 모드가 활성화 되어 있다면 zoom out 시킴
             widthSpecSize *= mScale;
@@ -108,13 +108,13 @@ public class CellLayout extends BaseCellLayout implements DragAndDropEvent {
                     int childheightMeasureSpec;
 
                     if(isPageMode) { //페이지 편집 모드일땐 scale를 적용
-                        childWidthMeasureSpec = MeasureSpec.makeMeasureSpec((int) (params.width * (2-mScale)), MeasureSpec.EXACTLY);
-                        childheightMeasureSpec = MeasureSpec.makeMeasureSpec((int) (params.height* (2-mScale)), MeasureSpec.EXACTLY);
+                        childWidthMeasureSpec = View.MeasureSpec.makeMeasureSpec((int) (params.width * (2-mScale)), View.MeasureSpec.EXACTLY);
+                        childheightMeasureSpec = View.MeasureSpec.makeMeasureSpec((int) (params.height* (2-mScale)), View.MeasureSpec.EXACTLY);
                         iconView.setWidgetScale(params.width, params.height, mScale + 0.04f);
                     }
                     else { //아닐 경우 원래 크기
-                        childWidthMeasureSpec = MeasureSpec.makeMeasureSpec(params.width, MeasureSpec.EXACTLY);
-                        childheightMeasureSpec = MeasureSpec.makeMeasureSpec(params.height, MeasureSpec.EXACTLY);
+                        childWidthMeasureSpec = View.MeasureSpec.makeMeasureSpec(params.width, View.MeasureSpec.EXACTLY);
+                        childheightMeasureSpec = View.MeasureSpec.makeMeasureSpec(params.height, View.MeasureSpec.EXACTLY);
                         iconView.setWidgetScale(0, 0, 1.0f);
                     }
 
